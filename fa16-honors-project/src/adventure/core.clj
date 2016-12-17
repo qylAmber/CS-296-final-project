@@ -207,7 +207,7 @@ for a game or something."
         (do (println "You can work here and get some payment.") (let [new-player (update-in player [:worktime] - 1)
           new-player2 (update-in new-player [:money] + 10)] new-player2))
         (do (println "You do not have enough working time.") player))
-      (do (println "You cannor work here.") player)))))
+      (do (println "You cannot work here.") player)))))
 
 
 (defn move[player]
@@ -215,7 +215,7 @@ for a game or something."
     (let [curr-location (player :location)]
     (if (and (contains? curr-inv :icard) (= curr-location :quad))
       (do (println "You can get from here to siebel.") (assoc-in player [:location] :siebel-center))
-      (do (println "You need to get the icard for transportation.") player))
+      (do (println "You need to get the icard and in the quad for transportation.") player))
     )))
 
 (defn pick [player]
@@ -231,7 +231,7 @@ for a game or something."
     (if (and (= curr-location :iken) (contains? curr-invent :ticket) (contains? curr-invent :raw-egg) (contains? curr-invent :book) (contains? curr-invent :leaf))
       ((do (println "congratulations! you finish the game")player)
         (System/exit 0))
-      (do (println "You dont have everything to climb up!") player))))
+      (do (println "You dont have everything to finish!") player))))
 
 
 
