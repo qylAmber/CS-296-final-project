@@ -12,4 +12,16 @@ Here are the commands to play:
 
 4. east: go to the east of the current room
 
-5. sleep: when you are in ece-building, you can sleep, this will reset your 
+5. sleep: when you are in ece-building, you can sleep, this will reset your hp to 100
+
+6. pick: you can pick the contents of the room in order to pass the game
+
+7. finish: when you are in the iken and have all the stuff needed, you can finish the game and this will let you quit
+
+8. study: when you are in siebal-center and you can study, this will costs you 20 hp
+
+9. take-exam: when you are in altgeld-hall, you can take exam and your hp will be 0 then (note: hp < 0 cannot take exam)
+
+10. get-info: you can get your current personal information
+
+11. get-stuff: when you have skytree-card, you can go to skytree to get the ticket (note: you can get your skytree-card from altgeld-hall)
