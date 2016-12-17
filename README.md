@@ -25,3 +25,13 @@ Here are the commands to play:
 10. get-info: you can get your current personal information
 
 11. get-stuff: when you have skytree-card, you can go to skytree to get the ticket (note: you can get your skytree-card from altgeld-hall)
+
+12. eat: you can eat at panda-express, and it will cost you 20 dollars
+
+13. relax: you can relax at the union, and this will add 5 to your hp 
+
+14. borrow-book: you can borrow at most 3 books at grainger
+
+15. work: you can work at royal express or are. This will cost 1 working hour and you will get 10 dollars payment
+
+16. move: you can get icard at union, and move from quad to siebel.
